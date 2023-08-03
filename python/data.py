@@ -4,6 +4,9 @@ x = 10
 # list
 ages = [10, 20, 36]
 
+for index, value in enumerate(ages):
+    print(index, value)
+
 # dict
 ages_with_names = {
     "Amjid": 25,
